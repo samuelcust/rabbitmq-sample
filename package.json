@@ -1,0 +1,13 @@
+{
+  "name": "rabbitmq-sample",
+  "author": "Samuel Custodio <samuelcust@outlook.com.br>",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "publish": "node ./index",
+    "consume": "node ./index --consume"
+  },
+  "dependencies": {
+    "amqplib": "^0.5.6"
+  }
+}
